@@ -1,0 +1,60 @@
+
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Environments
+.env
+.venv
+
+# Test and coverage
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# VSCode
+.vscode/
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Output artifacts
+output/
+
+# GeoIP database (large, downloaded separately)
+GeoLite2-City.mmdb
+# Archive and data folders
+dev/
+dev/archived/
+data/
+
+# Tests and temporary files
+test/
+
+# Environment files
+.env
+.env.*
+
+# Codacy MCP server instructions (local-only)
+.github/instructions/codacy.instructions.md
+
+# Logs
+*.log
+
