@@ -51,6 +51,7 @@ test/
 # Environment files
 .env
 .env.*
+!.env.example
 
 # Codacy MCP server instructions (local-only)
 .github/instructions/codacy.instructions.md
